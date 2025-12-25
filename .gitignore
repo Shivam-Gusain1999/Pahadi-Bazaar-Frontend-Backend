@@ -11,7 +11,6 @@ frontend/build/
 frontend/dist/
 
 # Environment variables
-.env
 server/.env
 frontend/.env
 backend/.env
@@ -30,10 +29,10 @@ Thumbs.db
 .vercel/
 
 # Editor
-.vscode/
 .idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 "@ | Set-Content -Path .gitignore -Encoding UTF8
+config.bat
